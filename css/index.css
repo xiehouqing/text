@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+p{
+	height:30px;
+	line-height:30px;
+	font-family:"微软雅黑";
+	font-size:25px;
+	color:#39F;
+	font-weight:bold;
+
+}
+.picture p{
+	color:#000;
+	font-size:16px;
+}
+.picture p span{
+	color:#F0F;
+	font-size:25px;
+	font-weight:bold;
+	margin:0 10px;
+}
+
+
+.content{
+	width:800px;
+	height:1000px;
+	margin:0 auto;
+	border:2px #999999 solid;
+	box-shadow:0 0 3px #00FFFF;
+	position:relative;
+	background:#E1E1E1
+}
+.content .picture{
+	height:300px;
+	border-bottom:1px #CCCCCC solid;
+	clear:both;
+}
+
+.content .picture img{
+	height:260px;
+	width:200px;
+	margin:10px 100px;
+	float:left;
+}
+.content .picture img:hover, .button .button_item:hover,  .is_error .is_error_item:hover{
+	cursor:pointer;
+}
+
+.button{
+	height:150px;
+	padding:30px 10px;
+	border-bottom:1px #CCCCCC solid;
+	clear:both;
+	
+}
+
+.button .button_item{
+	width:60px;
+	height:60px;
+	border:1px solid #F00;
+	border-radius:6%;
+	float:left;
+	text-align:center;
+	line-height:60px;
+	margin:35px 65px;
+	background-color:#666;
+}
+	
+.is_error{
+	height:150px;
+	padding:40px 10px;
+	border-bottom:1px #CCCCCC solid;
+	clear:both;
+}
+.is_error .is_error_item{
+	width:100px;
+	height:100px;
+	border:1px solid #F00;
+	border-radius:50%;
+	float:left;
+	text-align:center;
+	line-height:100px;
+	margin:35px 45px;
+	background-color:#666;
+}
+
+.button .highlight,.is_error .highlight {
+	background-color:#9C3;
+	color:#FFF;
+}
+
+.click_times1{
+	position:absolute;
+	top:270px;
+	left:20px;
+}
+
+.click_times2{
+	position:absolute;
+	top:270px;
+	right:20px;
+}
+.jieshao{
+	padding-top:26px;
+	height:190px;
+	padding-left:270px;
+}
+.jieshao p{
+	color:#C39;
+	font-size:26px;
+	margin:30px 0;
+}
+.q1{
+	text-align:center;
+}s
+
+	
+
+
+
